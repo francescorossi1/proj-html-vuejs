@@ -2,15 +2,14 @@
     <div class="d-flex align-items-center section-spacing">
         <div class="fb-40 ps-5">
             <h1 class="display-3">
-                <strong>We Are Here to Make Your <span class="tc-lime">Website</span> Look More 
-                <span class="tc-lime">Elegant</span> And Stylish!</strong>
+                <strong>We Are Here to Make Your <span class="tc-lime">Website</span> Look More
+                    <span class="tc-lime">Elegant</span> And Stylish!</strong>
             </h1>
             <LimeBreak />
             <BaseButton text='VIEW ALL' class="lime-button mb-5" />
         </div>
         <div class="fb-60 row row-cols-2">
             <BaseCard v-for="card in cards" :key="card.id" :card="card" class="col p-3" />
-
         </div>
     </div>
 </template>
