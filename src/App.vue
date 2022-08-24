@@ -31,5 +31,5 @@ export default {
   background-image: linear-gradient(to right, #A5E57C, #00D9A6)
 }
 
-;
+
 </style>
