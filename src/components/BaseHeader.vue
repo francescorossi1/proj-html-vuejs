@@ -4,22 +4,22 @@
             <div class="container d-flex justify-content-between">
                 <div class="header-numbers">
                     <span class="prefix">(001) </span>
-                    <span v-for="item in phone" :key="item.number"><a href="#">{{item.number}}</a></span>
+                    <span v-for="item in phone" :key="item.number" class="pe-2"><a href="#">{{item.number}}</a></span>
                 </div>
                 <div class="header-socials">
-                    <a href="#" v-for="social in socials" :key="social.name"><i class="fa-brands" :class="social.icon"></i></a>
+                    <a href="#" v-for="social in socials" :key="social.name" class="me-3"><i class="fa-brands" :class="social.icon"></i></a>
                 </div>
             </div>
         </div>
         <div class="bg-header-bottom py-4">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="logo"><img src="../assets/img/logo.png" alt="Pilox Logo"></div>
-                <ul class="header-menu d-flex align-middle m-0">
-                    <li v-for="item in menuItems" :key="item.id"><a href="#">{{item.name.toUpperCase()}}</a></li>
+                <ul class="header-menu d-flex my-0">
+                    <li v-for="item in menuItems" :key="item.id" class="me-3"><a href="#">{{item.name.toUpperCase()}}</a></li>
                 </ul>
-                <div class="header-search">
-                    <a href="#" class="btn">Purchase</a> <!-- TODO button component -->
-                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="header-search d-flex">
+                    <BaseButton text="PURCHASE" />
+                    <a href="#" class="align-middle ms-2"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-
+import BaseButton from './BaseButton.vue';
 export default {
     name: 'BaseHeader',
     data() {
@@ -50,7 +50,8 @@ export default {
                 { url: '#', name: 'pinterest', icon: 'fa-pinterest-p'}
             ]
         }
-    }
+    },
+        components: {BaseButton}
 }
 </script>
 
@@ -63,16 +64,13 @@ export default {
     a, .prefix {
         color: $tc-1;
     }
-    a {
-        padding-right: 1rem;
-    }
 }
 
 .bg-header-bottom {
     background-color: $bgc-1;
     a {
         color: $tc-15;
-        padding-right: 2rem;
+        padding-right: 30px;
     }
 }
 </style>
