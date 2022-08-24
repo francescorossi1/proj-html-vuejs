@@ -4,10 +4,11 @@
             <div class="container d-flex justify-content-between">
                 <div class="header-numbers">
                     <span class="prefix">(001) </span>
-                    <span v-for="item in phone" :key="item.number" class="pe-2"><a href="#">{{item.number}}</a></span>
+                    <span v-for="item in phone" :key="item.number" class="pe-2"><a href="#">{{ item.number }}</a></span>
                 </div>
                 <div class="header-socials">
-                    <a href="#" v-for="social in socials" :key="social.name" class="me-3"><i class="fa-brands" :class="social.icon"></i></a>
+                    <a href="#" v-for="social in socials" :key="social.name" class="me-3"><i class="fa-brands"
+                            :class="social.icon"></i></a>
                 </div>
             </div>
         </div>
@@ -15,7 +16,8 @@
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="logo"><img src="../assets/img/logo.png" alt="Pilox Logo"></div>
                 <ul class="header-menu d-flex my-0">
-                    <li v-for="item in menuItems" :key="item.id" class="me-3"><a href="#">{{item.name.toUpperCase()}}</a></li>
+                    <li v-for="item in menuItems" :key="item.id" class="me-3"><a
+                            href="#">{{ item.name.toUpperCase() }}</a></li>
                 </ul>
                 <div class="header-search d-flex">
                     <BaseButton text="PURCHASE" class="lime-button" />
@@ -45,13 +47,13 @@ export default {
                 { id: 6, name: 'contacts' }
             ],
             socials: [
-                { url: '#', name: 'facebook', icon: 'fa-facebook-f'},
-                { url: '#', name: 'twitter', icon: 'fa-twitter'},
-                { url: '#', name: 'pinterest', icon: 'fa-pinterest-p'}
+                { url: '#', name: 'facebook', icon: 'fa-facebook-f' },
+                { url: '#', name: 'twitter', icon: 'fa-twitter' },
+                { url: '#', name: 'pinterest', icon: 'fa-pinterest-p' }
             ]
         }
     },
-        components: {BaseButton}
+    components: { BaseButton }
 }
 </script>
 
@@ -61,16 +63,23 @@ export default {
 
 .bg-header-top {
     background-color: $bgc-10;
-    a, .prefix {
+
+    a,
+    .prefix {
         color: $tc-1;
     }
 }
 
 .bg-header-bottom {
     background-color: $bgc-1;
+
     a {
         color: $tc-15;
         padding-right: 30px;
+    }
+
+    i {
+        color: $tc-9
     }
 }
 </style>

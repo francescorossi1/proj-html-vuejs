@@ -15,12 +15,21 @@ export default {
   components: {
     BaseHeader,
     MainSections
-}
+  }
 }
 </script>
 
 <style lang="scss">
 @import './assets/sass/style.scss';
-.tc-lime { color: $tc-9 }
-.lime-button a, .lime {background-image: linear-gradient(to right, #A5E57C, #00D9A6)};
+
+.tc-lime {
+  color: $tc-9
+}
+
+.lime-button a,
+.lime {
+  background-image: linear-gradient(to right, #A5E57C, #00D9A6)
+}
+
+;
 </style>
