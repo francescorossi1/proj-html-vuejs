@@ -18,7 +18,7 @@
                     <li v-for="item in menuItems" :key="item.id" class="me-3"><a href="#">{{item.name.toUpperCase()}}</a></li>
                 </ul>
                 <div class="header-search d-flex">
-                    <BaseButton text="PURCHASE" />
+                    <BaseButton text="PURCHASE" class="lime-button" />
                     <a href="#" class="align-middle ms-2"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
             </div>

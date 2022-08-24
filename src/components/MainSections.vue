@@ -6,10 +6,10 @@
             <LimeBreak />
             <p> Far Far away, behind the word mountains, far From the countries Vokalia and Consonantia, there live the
                 blind texts.
-                Separated they rye in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
                 Separated they live in Bookmarksgrove.
             </p>
-            <BaseButton text='PURCHASE' />
+            <BaseButton text='PURCHASE' class="lime-button"/>
         </div>
     </div>
 </template>

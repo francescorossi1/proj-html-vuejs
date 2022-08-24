@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="#" class="lime tc-white rounded-5">{{text}}</a>
+    <a href="#" class="rounded-5">{{text}}</a>
   </div>
 </template>
 
@@ -16,6 +16,8 @@ export default {
     a{
         padding: 12px 30px;
         font-size: 10px;
+    }
+    a, a:hover{
         color: $tc-1;
     }
 </style>
