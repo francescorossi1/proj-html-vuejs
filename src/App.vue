@@ -25,13 +25,22 @@ export default {
 .tc-lime {
   color: $tc-9
 }
+
 .tc-white {
   color: $tc-1
 }
+
 .lime-button a,
 .lime {
   background-image: linear-gradient(to right, #A5E57C, #D2405D)
 }
 
+.reverse-lime {
+  background-image: linear-gradient(to left, #A5E57C, #D2405D)
+}
 
+.black-button a,
+.black {
+  background-image: linear-gradient(to right, $tc-14, $tc-18)
+}
 </style>

@@ -5,7 +5,8 @@
         <ObjectivesSection />
         <SamplesSection class="py-lg" />
         <QuotesSection />
-        <BlogSection />
+        <BlogSection class="py-lg" />
+        <NewProjectSection />
     </div>
 </template>
 
@@ -16,9 +17,10 @@ import ObjectivesSection from './ObjectivesSection.vue';
 import SamplesSection from './SamplesSection.vue';
 import QuotesSection from './QuotesSection.vue';
 import BlogSection from './BlogSection.vue';
+import NewProjectSection from './NewProjectSection.vue';
 export default {
     name: 'MainSections',
-    components: { MainJumbotron, BenefitsSection, ObjectivesSection, SamplesSection, QuotesSection, BlogSection }
+    components: { MainJumbotron, BenefitsSection, ObjectivesSection, SamplesSection, QuotesSection, BlogSection, NewProjectSection }
 }
 </script>
 
