@@ -44,7 +44,7 @@ export default {
     top: 0;
     right: 0;
     left: 0;
-    background-image: linear-gradient(to top right, rgb(165, 229, 124), rgb(0, 217, 166, 0.6));
+    background-image: linear-gradient(to top right, rgb(165, 229, 124), rgba(210, 64, 93, 0.6));
     border-radius: 8px;
 }
 </style>

@@ -34,7 +34,7 @@ export default {
 @import '../assets/sass/vars.scss';
 
 .img-bg {
-    background-image: linear-gradient(to top right, #A5E57C, #00D9A6), url('../assets/img/objectives-2.jpg');
+    background-image: linear-gradient(to top right, #A5E57C, #D2405D), url('../assets/img/objectives-2.jpg');
 
     img {
         transform: translate(10%, 10%);

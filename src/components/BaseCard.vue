@@ -22,7 +22,7 @@ export default {
         box-shadow: 0px 0px 20px 10px $bgc-4;
         transition: color 0.5s linear, background-image 0.5s linear;
     &:hover{
-        background-image: linear-gradient(to bottom left, #A5E57C, #00D9A6);
+        background-image: linear-gradient(to bottom left, #A5E57C, #D2405D);
         color: $tc-1
         }
     }

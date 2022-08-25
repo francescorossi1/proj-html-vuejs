@@ -30,7 +30,7 @@ export default {
 }
 .lime-button a,
 .lime {
-  background-image: linear-gradient(to right, #A5E57C, #00D9A6)
+  background-image: linear-gradient(to right, #A5E57C, #D2405D)
 }
 
 
