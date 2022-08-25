@@ -19,9 +19,10 @@
             </div>
         </div>
         <div class="gallery">
-            <div class="row row-cols-4 gx-1">
+            <div class="row row-cols-4 gx-1 pb-5">
                 <SamplesCard v-for="sample in samples" :key="sample.id" :sample="sample" />
             </div>
+            <BaseButton text="READ MORE" class="lime-button pt-5 text-center" />
         </div>
     </div>
 </template>
@@ -29,9 +30,10 @@
 <script>
 import LimeBreak from './LimeBreak.vue';
 import SamplesCard from './SamplesCard.vue'
+import BaseButton from './BaseButton.vue';
 export default {
     name: 'SamplesSection',
-    components: { LimeBreak, SamplesCard },
+    components: { LimeBreak, SamplesCard, BaseButton },
     data() {
         return {
             samples: [
