@@ -16,7 +16,7 @@ export default {
     props: { card: Object }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import '../assets/sass/vars.scss';
     .base-card{
         box-shadow: 0px 0px 20px 10px $bgc-4;
