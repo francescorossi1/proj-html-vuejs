@@ -25,7 +25,9 @@ export default {
 .tc-lime {
   color: $tc-9
 }
-
+.tc-white {
+  color: $tc-1
+}
 .lime-button a,
 .lime {
   background-image: linear-gradient(to right, #A5E57C, #00D9A6)
