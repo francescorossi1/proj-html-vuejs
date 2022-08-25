@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="bg-header-top py-2">
+        <div class="bg-header-top py-2 container-fluid">
             <div class="container d-flex justify-content-between">
                 <div class="header-numbers">
                     <span class="prefix">(001) </span>
@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-header-bottom py-4">
+        <div class="bg-header-bottom py-4 container-fluid">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="logo"><img src="../assets/img/logo.png" alt="Pilox Logo"></div>
                 <ul class="header-menu d-flex my-0">
