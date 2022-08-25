@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex py-5">
+    <div class="d-flex py-3">
         <div class="hr lime sm"></div>
         <div class="hr lime lg"></div>
     </div>

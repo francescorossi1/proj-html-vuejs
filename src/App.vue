@@ -2,20 +2,23 @@
   <div>
     <BaseHeader />
     <MainSections />
+    <MainFooter />
   </div>
 </template>
 
 <script>
 import BaseHeader from './components/BaseHeader.vue';
 import MainSections from './components/MainSections.vue';
+import MainFooter from './components/MainFooter.vue';
 
 
 export default {
   name: 'App',
   components: {
     BaseHeader,
-    MainSections
-  }
+    MainSections,
+    MainFooter
+}
 }
 </script>
 
